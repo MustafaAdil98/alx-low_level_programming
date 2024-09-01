@@ -5,7 +5,7 @@
 
 /**
  * main - Entry Point
- * Description: Conditinal to check if the number is positive or negative or zero.
+ * Description: Conditinal to check if the number is positive or negative or.
  *
  *Return: Always 0.
  */
@@ -26,7 +26,7 @@ int main(void)
 	}
 	else
 	{
-		printf("%d is negativ0e\n", n);
+		printf("%d is negative\n", n);
 	}
 	return (0);
 }
