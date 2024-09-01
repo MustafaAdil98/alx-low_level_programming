@@ -1,4 +1,4 @@
-#include<stdio.hii>
+#include<stdio.h>
 #include<ctype.h>
 
 
@@ -14,12 +14,12 @@
 int main(void)
 {
 int num ;
-char letter = 'a'
+char letter = 'a';
 for (num = 0; num < 9; num++)
 {
-putchar(num % 10) + '0');
+putchar((num % 10) + '0');
 }
-for ( letter = 'a'; letter <= 'f'; letter++)
+for (letter = 'a'; letter <= 'f'; letter++)
 {
 putchar(letter);
 }
