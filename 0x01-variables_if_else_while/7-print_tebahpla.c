@@ -14,7 +14,7 @@
 int main(void)
 {
 int lowerCase = 122;
-while (lowerCase > 66)
+while (lowerCase > 96)
 {
 putchar(lowerCase);
 lowerCase -= 1;
