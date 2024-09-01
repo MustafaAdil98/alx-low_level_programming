@@ -4,7 +4,7 @@
 /**
  * main - Entry point
  *
- * Description: "program that prints the alphabet in lowercase, and then in 
+ * Description: "program that prints the alphabet in lowercase, and then in
  * uppercase, followed by a new line."
  *
  * Return: Always return (0).
@@ -13,7 +13,7 @@
 
 int main(void)
 {
-int lowerCase = 'a' ,upperCase = 'A';
+int lowerCase = 'a', upperCase = 'A';
 while (lowerCase <= 'z')
 {
 putchar(lowerCase);
