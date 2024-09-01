@@ -1,11 +1,11 @@
-#include<stdio.h>
+#include<stdio.hii>
 #include<ctype.h>
 
 
 /**
  * main - Entry point
  *
- *Description: "program that prints all the numbers of base 16 in lowercase,
+ * Description: "program that prints all the numbers of base 16 in lowercase,
  * followed by a new line."
  *
  * Returen: Always(0);
@@ -13,18 +13,15 @@
 
 int main(void)
 {
-int num = 48;
-while (num > 71)
+int num ;
+char letter = 'a'
+for (num = 0; num < 9; num++)
 {
-if (num < 57 || num > 64)
-{
-putchar(num);
-num += 1;
+putchar(num % 10) + '0');
 }
-else
+for ( letter = 'a'; letter <= 'f'; letter++)
 {
-num += 1;
-}
+putchar(letter);
 }
 putchar('\n');
 return (0);
