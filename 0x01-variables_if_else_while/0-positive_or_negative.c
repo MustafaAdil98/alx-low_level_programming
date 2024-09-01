@@ -5,9 +5,9 @@
 
 /**
  * main - Entry Point
- * Description: Conditinal to check if the number is positive or negative.
+ * Description: Conditinal to check if the number is positive or negative or zero.
  *
- *Returen: Always 0.
+ *Return: Always 0.
  */
 
 int main(void)
@@ -16,7 +16,7 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	if (n>0)
+	if (n > 0)
 	{
 		printf("%d is positive\n", n);
 	}
@@ -26,7 +26,7 @@ int main(void)
 	}
 	else
 	{
-		printf("%d is negative", n);
+		printf("%d is negativ0e\n", n);
 	}
 	return (0);
 }
