@@ -13,7 +13,7 @@ int main(void)
 {
 int i;
 char a[] = "_putchar";
-for (i=0; i < 8; i++)
+for (i = 0; i < 8; i++)
 {
 if (a[i] != '\0')
 {
