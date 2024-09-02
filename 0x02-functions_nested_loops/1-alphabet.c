@@ -3,14 +3,13 @@
 /**
  * main - check the code
  *
- * Description: "function that prints the alphabet, in lowercase, followed by a new
- * line"
+ * Description: "fkiupig"
  *
  * Return: Always 0.
  */
 void print_alphabet(void)
 {
-char ch;
+int ch;
 for (ch = 'a'; ch <= 'z'; ch++)
 {
 _putchar(ch);
