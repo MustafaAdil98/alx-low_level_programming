@@ -1,19 +1,15 @@
 #include "main.h"
-
 /**
- * main - check the code
- *
- * Description: "fkiupig"
- *
- * Return: Always 0.
- */
-
+*print_alphabet - function that print alphabet
+*it prints in lowercase
+*Return: no return
+*/
 void print_alphabet(void)
 {
-int ch;
-for (ch = 'a'; ch <= 'z'; ch++)
+int letter;
+for (letter = 'a'; letter <= 'z'; letter++)
 {
-_putchar(ch);
+_putchar (letter);
 }
-_putchar('\n');
+_putchar (10);
 }
